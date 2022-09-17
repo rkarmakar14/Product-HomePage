@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+body{
+    background-color: #fff;
+    /* align-items: center; */
+    /* display: flex; */
+    margin: 20px;
+}
+nav{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: row;
+
+    align-items: center;
+}
+nav>img{
+    margin-top: 20px;
+    display: flex;
+    /* width: 10vw; */
+    /* margin-left: 30px; */
+}
+.logo{
+    width: auto;
+    height: auto;
+    margin-right: 5%;
+}
+
+.nav-items{
+    display: flex;
+    flex: .7;
+    font-size: 25px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+.active-item{
+    color: #D82E2F ;
+}
+.intro-section{
+    /* background-color: aqua; */
+    display: flex;
+    flex:1;
+    flex-direction: row;
+}
+.left-section{
+    /* background-color: yellow; */
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    margin-top: 50px;
+}
+h3{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    /* font-weight: normal; */
+}
+h3>img{
+    height: 5vh;
+    width: 10vh;
+}
+h1{
+    margin-top: 10px;
+    font-size: 80px;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+.sub-headlines{
+    display: flex;
+    flex-direction: column;
+    flex: .2;
+
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 60px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+/* .text{
+    display: flex;
+} */
+h5>img{
+    border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding: 7px;
+  background: #EB4D4B;
+  /* text-align: center; */
+  margin-right: 10px;
+  justify-content: space-between;
+}
+.text{
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.action-btn{
+    margin-top: 30px;
+}
+
+.action-btn{
+
+    background-color: #EB4D4B; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    /* text-align: center; */
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+}
+.right-section{
+    /* background-color: yellow; */
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 10%;
+    
+}
+.headphone-div {
+    /* margin: 3%; */
+    /* width: 80vw; */
+    position: relative;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.discount {
+    position: absolute;
+    margin-right: 500PX;
+    bottom: 50px;
+    margin-left: 20%;
+}
+
+.discount-content {
+    position: absolute;
+    bottom: 60px;
+    left: 10px;
+}
+
+ div>div>div>h1{ 
+    align-items: center;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+} 
+div>div>div>h4{ 
+    align-items: center;
+    /* font-size: 50px; */
+    margin-left: 30px;
+    /* margin-bottom: 50px; */
+} 
+.dots{
+     /* background-color: blue;  */
+    display: flex;
+    flex-direction: row;
+    flex: .1;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300PX;
+}
+ .yellow-dot{
+    height: 25px;
+    width: 25px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+ }
+ .tomato-dot{
+    height: 25px;
+    width: 25px;
+    background-color: tomato;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+ }
+ .black-dot{
+    height: 25px;
+    width: 25px;
+    background-color: #1f1f1f;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+ }
+ .action-btnr{
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #EB4D4B; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    /* text-align: center; */
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+ }
+@media only screen and (max-width: 500px) {
+    .nav{
+        display: block;
+        margin-left: 10%;
+    }
+    .nav-items{
+        display: none;
+        
+    }
+    .intro-section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding-left: 20%;
+        /* text-align: center; */
+    }
+}
